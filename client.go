@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"geerpc/codec"
+	"github.com/max-wzm/geerpc/codec"
 	"io"
 	"log"
 	"net"

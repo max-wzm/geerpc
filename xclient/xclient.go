@@ -2,10 +2,11 @@ package xclient
 
 import (
 	"context"
-	. "geerpc"
 	"io"
 	"reflect"
 	"sync"
+
+	. "github.com/max-wzm/geerpc"
 )
 
 type XClient struct {

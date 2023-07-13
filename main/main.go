@@ -3,14 +3,15 @@ package main
 import (
 	"context"
 	"fmt"
-	"geerpc"
-	"geerpc/registry"
-	"geerpc/xclient"
 	"log"
 	"net"
 	"net/http"
 	"sync"
 	"time"
+
+	"github.com/max-wzm/geerpc"
+	"github.com/max-wzm/geerpc/registry"
+	"github.com/max-wzm/geerpc/xclient"
 )
 
 type Foo int

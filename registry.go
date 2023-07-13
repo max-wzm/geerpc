@@ -2,7 +2,7 @@ package geerpc
 
 import (
 	"fmt"
-	"geerpc/registry"
+	"github.com/max-wzm/geerpc/registry"
 	"net"
 	"net/http"
 	"strconv"

@@ -8,8 +8,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"geerpc/codec"
-	"geerpc/registry"
 	"io"
 	"log"
 	"net"
@@ -18,6 +16,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/max-wzm/geerpc/codec"
+	"github.com/max-wzm/geerpc/registry"
 )
 
 const MagicNumber = 0x3bef5c
